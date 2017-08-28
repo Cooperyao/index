@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+}
+#main{
+    background-color: white;
+    width: 600px;
+    height: auto;
+    margin: 200px auto;
+    border:1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #ccc;
+    padding: 30px;
+}
+ul{
+    list-style: none;
+}
+.oneList{
+    border-bottom: 1px solid #ccc;
+}
+#one li a{
+    display: block;
+    text-decoration: none;
+    color: #0094ff;
+    font-size: 35px;
+    padding: 20px 0;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 10px;
+}
+#one li a:hover{
+    color: white;
+    background-color: #0094ff;
+}
+#one li ul{
+    margin: 0 auto;
+    width: 300px;
+    display: none;
+}
+#one li ul li{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+#one li ul li a{
+    display: block;
+    color: #0088bb;
+    font-size: 20px;
+}
